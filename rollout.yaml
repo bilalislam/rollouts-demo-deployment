@@ -34,7 +34,7 @@ spec:
   strategy:
      blueGreen:
        activeService: rollouts-demo
-#       previewService: rollouts-demo-preview
+       previewService: rollouts-demo-preview
      canary: 
        steps:
        - setWeight: 20
