@@ -35,7 +35,7 @@ spec:
      blueGreen:
        activeService: rollouts-demo
        previewService: rollouts-demo-preview
-     canary: 
-       steps:
-       - setWeight: 20
-       - pause: {}
+    #  canary: 
+    #    steps:
+    #    - setWeight: 20
+    #    - pause: {}
