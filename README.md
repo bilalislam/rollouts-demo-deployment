@@ -6,10 +6,10 @@ Repository demonstrates implementation of Canary deployment using Argo Rollouts
 
 Steps:
 
-1. Create the Argo CD application using deployment repo https://github.com/alexmt/rollouts-demo-deployment: 
+1. Create the Argo CD application using deployment repo https://github.com/bilalislam/rollouts-demo-deployment: 
 
 ```
-argocd app create rollouts-demo --repo https://github.com/alexmt/rollouts-demo-deployment --path . --dest-server https://kubernetes.default.svc --dest-namespace rollouts-demo --sync-policy automated
+argocd app create rollouts-demo --repo https://github.com/bilalislam/rollouts-demo-deployment --path . --dest-server https://kubernetes.default.svc --dest-namespace rollouts-demo --sync-policy automated
 ```
 
 2. Make sure application is running by visiting http://rollouts-demo.apps.argoproj.io/.
