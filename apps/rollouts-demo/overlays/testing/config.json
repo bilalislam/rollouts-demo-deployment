@@ -1,0 +1,1 @@
+{"appName":"rollouts-demo","userGivenName":"rollouts-demo","destNamespace":"default","destServer":"https://kubernetes.default.svc","srcPath":"apps/rollouts-demo/overlays/testing","srcRepoURL":"https://github.com/bilalislam/rollouts-demo-deployment.git","srcTargetRevision":""}
